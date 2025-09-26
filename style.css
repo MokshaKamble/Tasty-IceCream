@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+.navbar{
+    height:75px;
+    background-image:linear-gradient(to right,rgb(194, 29, 29),rgb(226, 183, 128),rgb(194, 29, 29));
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    position:sticky;
+    top:0px;
+    box-shadow:0px 0px 20px black;
+    border-radius:20px;
+}
+.menublock,.imageblock{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    height:75px;
+    width:33.33%;
+}
+.menublock a{
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+    border-bottom:2px solid black;
+    padding-bottom:5px;
+}
+.logoblock h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+}
+.maincontent{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.background-container{
+    width:100%;
+    height:700px;
+    background-size:cover;
+    background-image:url("https://wallpaper.forfun.com/fetch/7c/7cd6d433009da2753280bff7eab17133.jpeg");
+    background-repeat:no-repeat;
+    background-position:center center;
+    padding:20px;
+    color:white;
+    text-align:left;
+    box-shadow:0px 0px 20px black;
+    border-radius:20px;
+}
+.background-container h1,p{
+    padding-top:50px;
+}
+#videocontent{
+    height:500px;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    box-shadow:0px 0px 20px black;
+    border-radius:20px; 
+    padding:20px; 
+    background-color:rgb(226, 183, 128);
+}
+.video1{
+    height:500px;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.video_content{
+    height:400px;
+    width:90%;
+    display:flex;
+    justify-content: space-evenly;
+    padding:20px;
+    text-align:justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.video_content:hover{
+    transform:skew(30deg,20deg);
+    transition-duration:2s;
+}
+.video1 video{
+    height:500px;
+    width:90%;
+}
+footer{
+    height:100px;
+    background-image:linear-gradient(to right,rgb(194, 29, 29),rgb(226, 183, 128),rgb(194, 29, 29));
+    border-radius:20px;
+    box-shadow:0px 0px 20px black;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+footer img{
+    height:60px;
+}
